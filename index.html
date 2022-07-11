@@ -4,35 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets\img\faviconio-logo (1)\logo.png" type="image/x-icon">
-
-        <!--=============== BOXICONS ===============-->
+        <!--boxicon_link-->
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         
-        <!--=============== SWIPER CSS ===============-->
+         <!--favicon-->
+        <link rel="shortcut icon" href="assets\img\faviconio-logo (1)\logo.png" type="image/x-icon">
+        
+        <!--swiper_css-->
         <link rel="stylesheet" href="assets\css\swiper-bundle.min.css">
 
-        <!--=============== CSS ===============-->
+        <!--css-->
         <link rel="stylesheet" href="assets\css\styles.css">
 
+        <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
         <title>HomePros</title>
     </head>
     <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
+        <!--header_section-->
+        <header class="header" id="header" style="font-size: 15px;">
+            <div class="container_main">
             <nav class="nav container">
                 <a href="#" class="nav__logo"> 
                     HomePros <i class='bx bxs-building-house'></i>
+                    
                 </a>
+                <div style="display: flex; align-items: center;">
                 <div class="nav__menu">
-                    <ul class="nav__list">
+
+                    <ul class="nav__list" >
                         <li class="nav__item">
                             <a href="#home" class="nav__link">
                                 <i class='bx bx-home'></i>
-                                <span>
-                                 Home
-                                </span>
+                                <span style="text-decoration: none;">Home</span>
+                                   
+                                 
+                                
                             </a>
                         </li>
                         <li class="nav__item">
@@ -52,47 +61,54 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link">
+                            <a href="#contact" class="nav__link ">
                                 <i class='bx bx-phone'></i>
                                 <span>
-                                    Contact
+                                    Contact 
                                 </span>
                             </a>
                         </li>
                     </ul>
-
                 </div>
-                <i class='bx bx-moon change-theme' id="theme-button" ></i>
-                <a href="#" class="button nav__button">Login/Sign Up</a>
+                </div>
             </nav>
+
+            <a href="#" class="button nav__button" style=" margin-left:677px; display:flex; align-items: center;" >
+                <div>Login/SignUp</div>
+                
+               
+           </a>
+        </div>
         </header>
 
-        <!--==================== MAIN ====================-->
+        <!--main-->
         <main class="main">
-            <!--==================== HOME ====================-->
+            <!--home_section-->
             <section class="home section" id="home">
                 <div class="home__container container grid">
                     <div class="home__data">
                         <h1 class="home__title">
-                            Where <br> Dreams come <br> Home
+                            Where <br> Dreams Come <br> Home
 
                         </h1>
                         <p class="home__description">
                             Find your dream property .HomePros property group delivers a variety of real estate services.
-                            We specialize in renovations in homes that truly need it and then turn it around for sales in India.
+                             We specialize in renovations in homes that truly need it and then turn it around for sales in India.
                             </p>
                         <form action="" class="home__search">
                             <i class='bx bx-map-pin' ></i>
                             <input type="search" placeholder="Search by location" class="home__search-input">
                             <button class="button">Search</button>
+                            
                         </form>
-                        <div class="home__value">
+                        
+                         <div class="home__value">
                             <div>
                            <h1 class="home__value-number">
-                             3K <span>+</span>
+                             5K <span>+</span>
                            </h1>
                             <span class="home__value-description">
-                              Premium <br> Products
+                              Premium <br> Product
                             </span>
                         </div>
                         <div>
@@ -100,7 +116,7 @@
                               8K <span>+</span>
                             </h1>
                              <span class="home__value-description">
-                               Award <br> Winning properties
+                               Award <br> Winning Properties
                              </span>
                          </div>
                          <div>
@@ -110,7 +126,7 @@
                              <span class="home__value-description">
                                Happy <br> Clients
                              </span>
-                         </div>
+                         </div> 
                         </div>
                     </div>
                     <div class="home__images">
@@ -122,31 +138,13 @@
                 </div>
             </section>
 
-            <!--==================== LOGOS ====================-->
-            <section class="logos section">
-                <div class="logos__container container grid">
-                    <div class="logos__img">
-                        <img src="assets\img\logo7.png" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets\img\logo8.jpg" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets\img\logo5.png" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets\img\logo6.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== POPULAR ====================-->
+            <!--popular_section-->
             <section class=" popular section" id="popular">
 
                 <div class="container">
-                    <span class="section__subtitle">Top Choices</span>
+                    <span class="section__subtitle">Top Choice</span>
                     <h2 class="section__title">
-                        Popular properties<span>.</span>
+                        Popular Properties<span>.</span>
                     </h2>
                 <div class="popular__container swiper">
                 <div class="swiper-wrapper">
@@ -154,13 +152,13 @@
                         <img src="assets\img\home1.jpg" alt="" class="popular__img">
                         <div class="popular__data">
                             <h2 class="popular__price">
-                                <span>Rs</span>8.8cr
+                                <span>Rs.</span>8.8cr
                             </h2>
                             <h3 class="popular__title">
                               Garden Reach Villa
                             </h3>
                             <p class="popular__description">
-                             31 Stephen Court,lindsay street,Kolkata-700063,India.  
+                                31 Stephen Court,Lindsay Street,Kolkata-700063,India.
                             </p>
                         </div>
                     </article>
@@ -168,13 +166,13 @@
                         <img src="assets\img\home2.jpg" alt="" class="popular__img">
                         <div class="popular__data">
                             <h2 class="popular__price">
-                                <span>Rs</span>7cr
+                                <span>Rs.</span>7cr
                             </h2>
                             <h3 class="popular__title">
-                             Monica's Retreat
+                              Monica's Retreat
                             </h3>
                             <p class="popular__description">
-                            MALE, Maharashtra 412108
+                                MALE, Maharashtra-412108,India.
                             </p>
                         </div>
                     </article>
@@ -182,13 +180,15 @@
                         <img src="assets\img\home3.jpg" alt="" class="popular__img">
                         <div class="popular__data">
                             <h2 class="popular__price">
-                                <span>Rs</span>6.5cr
+                                <span>Rs.</span>6.5cr.
                             </h2>
                             <h3 class="popular__title">
-                              Carmel Residence
+                                Carmel Residence
                             </h3>
                             <p class="popular__description">
-                            Ivy Rossa Layout, Carmelaram Post, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035
+                                Ivy Rossa Layout, Carmelaram Post, 
+                                Sarjapur - Marathahalli Rd, Bengaluru,
+                                Karnataka 560035  
                             </p>
                         </div>
                     </article>
@@ -196,13 +196,15 @@
                         <img src="assets\img\home4.jpg" alt="" class="popular__img">
                         <div class="popular__data">
                             <h2 class="popular__price">
-                                <span>Rs</span>7.3cr
+                                <span>Rs.</span>7.3cr
                             </h2>
                             <h3 class="popular__title">
-                              Hilton Plaza
+                                Hilton Plaza 
                             </h3>
                             <p class="popular__description">
-                            A4, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, Delhi 110017
+                                A4, Saket District Centre, District Centre, 
+                                Sector 6, Pushp Vihar,
+                                New Delhi, Delhi 110017
                             </p>
                         </div>
                     </article>
@@ -210,13 +212,15 @@
                         <img src="assets\img\real_home.jpg" alt="" class="popular__img">
                         <div class="popular__data">
                             <h2 class="popular__price">
-                                <span>Rs</span>8cr
+                                <span>Rs.</span>8cr
                             </h2>
                             <h3 class="popular__title">
-                              Iris Abode
+                                Iris Abode
                             </h3>
                             <p class="popular__description">
-                            Bajanai kovil, 3rd St, Maruthi Nagar, Hasthinapuram, Chromepet, Chennai, Tamil Nadu 600064
+                                Bajanai kovil, 3rd St, Maruthi Nagar, Hasthinapuram,
+                                 Chromepet, Chennai, 
+                                 Tamil Nadu 600064
                             </p>
                         </div>
                     </article>
@@ -232,7 +236,7 @@
                 </div>
             </section>
 
-            <!--==================== VALUE ====================-->
+            <!--value_section-->
             <section class="value section" id="value">
                 <div class="value__container container grid">
                     <div class="value__images">
@@ -246,17 +250,17 @@
                         <div class="value__data">
                             <span class="section__subtitle">Our Value</span>
                             <h2 class="section__title">
-                                Value we give to you<span>.</span>
+                                Benefits we give to you<span>.</span>
                             </h2>
                             <p class="value__description">Get the best real estate deals first,
-                                before they hit the mass market!.</p>
+                                 before they hit the mass market!</p>
                         </div>
                         <div class="value__accordion">
                             <div class="value__accordion-item">
                                 <header class="value__accordion-header">
                                     <i class='bx bx-check-shield value__accordion-icon' ></i>
                                     <h3 class="value__accordion-title">
-                                      Best interest rates in the market
+                                      Best rates in the Market
                                     </h3>
                                     <div class="value__accordion-arrow">
                                         <i class='bx bx-chevrons-down'></i>
@@ -273,7 +277,7 @@
                                 <header class="value__accordion-header">
                                     <i class='bx bxs-x-square'></i>
                                     <h3 class="value__accordion-title">
-                                      Prevent unstable rates
+                                      No sudden price hike
                                     </h3>
                                     <div class="value__accordion-arrow">
                                         <i class='bx bx-chevrons-down'></i>
@@ -281,7 +285,8 @@
                                 </header>
                                 <div class="value__accordion-conttent">
                                     <p class="value__accordion-description">
-                                      We gurantee no price changes on your property due to various unexpected costs that may come.  
+                                        We gurantee no price changes on your property due to
+                                         various unexpected costs that may come.
                                     </p>
                                 </div>
                             </div>
@@ -290,7 +295,7 @@
                                 <header class="value__accordion-header">
                                     <i class='bx bxs-bar-chart-square'></i>
                                     <h3 class="value__accordion-title">
-                                      Best prices in the market
+                                      Best deals in the market
                                     </h3>
                                     <div class="value__accordion-arrow">
                                         <i class='bx bx-chevrons-down'></i>
@@ -298,7 +303,8 @@
                                 </header>
                                 <div class="value__accordion-conttent">
                                     <p class="value__accordion-description">
-                                        We offer prospective homebuyers and investors with the freshest, hottest deals on the Internet.
+                                        We offer prospective homebuyers and investors
+                                         with the freshest, hottest deals on the Internet.
                                     </p>
                                 </div>
                             </div>
@@ -307,7 +313,7 @@
                                 <header class="value__accordion-header">
                                     <i class='bx bxs-check-square'></i>
                                     <h3 class="value__accordion-title">
-                                      security of your data 
+                                      Trustworthy Services
                                     </h3>
                                     <div class="value__accordion-arrow">
                                         <i class='bx bx-chevrons-down'></i>
@@ -315,108 +321,130 @@
                                 </header>
                                 <div class="value__accordion-conttent">
                                     <p class="value__accordion-description">
-                                    We provide proper insurance, compensation and other social security expenses.
+                                        We provide proper insurance, compensation and 
+                                        other social security expenses.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                    </div> 
             </section>
-
-            <!--==================== CONTACT ====================-->
+            <section class="logos section">
+                <div>
+                    <h1  class="sponsors" style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+                    OUR PARTNERS:
+                </h1>
+                </div>
+                <div class="logos__container container grid">
+                    <div class="logos__img">
+                        <img src="assets\img\logo7.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets\img\logo8.jpg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets\img\logo5.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets\img\logo6.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--contact_section-->
             <section class="contact section" id="contact">
-              <div class="contact__container container grid">
-                <div class="contact__images">
-                    <div class="contact__orbe"></div>
-                    <div class="contact__img">
-                        <img src="assets\img\values.jpg" alt="">
-                    </div>
-                </div>
-                <div class="contact__content">
-                    <div class="contact__data">
-                   <span class="section__subtitle">Contact Us</span>
-                   <h2 class="section__title">
-                   How to contact us<span>.</span>
-                   </h2>
-                   <p class="contact__description">
-                    Are you looking for a new place with all the essentials? Need guide in buying.
-                   </p>
-                </div>
-                <div class="contact__card">
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-phone-call' ></i>
-                          <div>
-                            <h3 class="contact__card-title">
-                              Call
-                            </h3>
-                            <p class="contact__card-description">
-                                033-61745678/79/82
-                            </p>
-                          </div>
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+                        <div class="contact__img">
+                            <img src="assets\img\contact.jpg" alt="">
                         </div>
-                        <button class="button contact__card-button">
-                            Call Now
-                        </button>
                     </div>
-
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-message-rounded-dots'></i>
-                          <div>
-                            <h3 class="contact__card-title">
-                             Chat(Whatsapp)
-                            </h3>
-                            <p class="contact__card-description">
-                                +91-8978634567
-                            </p>
-                          </div>
+                    <div class="contact__content">
+                        <div class="contact__data">
+                       <span class="section__subtitle">Contact Us</span>
+                       <h2 class="section__title">
+                        How can you contact us<span>.</span>
+                       </h2>
+                       <p class="contact__description">
+                        Are you looking for a new place with all the essentials? Need guide in buying.
+                       </p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call' ></i>
+                              <div>
+                                <h3 class="contact__card-title">
+                                  Call
+                                </h3>
+                                <p class="contact__card-description">
+                                    033-61745678/79/82
+                                </p>
+                              </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Call Now
+                            </button>
                         </div>
-                        <button class="button contact__card-button">
-                            Chat Now
-                        </button>
-                    </div>
-
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-video-recording' ></i>
-                          <div>
-                            <h3 class="contact__card-title">
-                              Video Call<br>(Whatsapp/Google Duo)
-                            </h3>
-                            <p class="contact__card-description">
-                                +91-8978634567
-                            </p>
-                          </div>
+    
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-message-rounded-dots'></i>
+                              <div>
+                                <h3 class="contact__card-title">
+                                 Chat
+                                </h3>
+                                <p class="contact__card-description">
+                                    +91-8978634567
+                                </p>
+                              </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Chat Now
+                            </button>
                         </div>
-                        <button class="button contact__card-button">
-                            Video Call Now
-                        </button>
-                    </div>
-
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-envelope' ></i>
-                          <div>
-                            <h3 class="contact__card-title">
-                             Mail
-                            </h3>
-                            <p class="contact__card-description">
-                            hpros.india@gmail.com
-                            </p>
-                          </div>
+    
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-video-recording' ></i>
+                              <div>
+                                <h3 class="contact__card-title">
+                                  Video Call<br>(WhatsApp/Google Duo)
+                                </h3>
+                                <p class="contact__card-description">
+                                    +91-8978634567
+                                </p>
+                              </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Video Call Now 
+                            </button>
                         </div>
-                        <button class="button contact__card-button">
-                            Message Now
-                        </button>
+    
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-envelope' ></i>
+                              <div>
+                                <h3 class="contact__card-title">
+                                 Mail
+                                </h3>
+                                <p class="contact__card-description">
+                                    hpros.india@gmail.com
+                                </p>
+                              </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Message Now
+                            </button>
+                        </div>
                     </div>
-                </div>
-                </div>
-              </div>
+                    </div>
+                  </div>  
             </section>
 
-            <!--==================== SUBSCRIBE ====================-->
+            <!--subscribe_section-->
             <section class="subscribe section">
                 <div class="subscribe__container container">
                     <h1 class="subscribe__title">
@@ -433,7 +461,7 @@
             </section>
         </main>
 
-        <!--==================== FOOTER ====================-->
+        <!--footer_section-->
         <footer class="footer section">
             <div class="footer__container container grid">
                 <div>
@@ -441,8 +469,8 @@
                         HomePros <i class='bx bxs-home'></i>
                     </a>
                     <p class="footer__description">
-                    Our vision is to make all people <br>
-                    the best place to live for them.
+                    The goal is to provide the <br>
+                    experience of a lifetime.
                 </p>
                 </div>
                 <div class="footer__content">
@@ -458,7 +486,7 @@
                                 <a href="#" class="footer__link">Features</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">News and BLog</a>
+                                <a href="#" class="footer__link">Latest Offers</a>
                             </li>
                         </ul>
                     </div>
@@ -470,13 +498,13 @@
                         </h3>
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">How We Work?</a>
+                                <a href="#" class="footer__link">Overview</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Captital</a>
+                                <a href="#" class="footer__link">Registered Members</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Security</a>
+                                <a href="#" class="footer__link">Guidelines</a>
                             </li>
                         </ul>
                     </div>
@@ -491,7 +519,7 @@
                                 <a href="#" class="footer__link">FAQs</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">support center</a>
+                                <a href="#" class="footer__link">Support center</a>
                             </li>
                             <li>
                                 <a href="#" class="footer__link">Contact Us</a>
@@ -505,13 +533,13 @@
                            Follow us
                         </h3>
                         <ul class="footer__social">
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <a href="https://www.facebook.com/" target="blank" class="footer_social-link">
                                 <i class='bx bxl-facebook-circle'></i>
                             </a>
-                            <a href="https://www.instagram.com/"  target="_blank" class="footer__social-link">
+                            <a href="https://www.instagram.com/"  target="blank" class="footer_social-link">
                                 <i class='bx bxl-instagram-alt' ></i>
                             </a>
-                            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                            <a href="https://www.pinterest.com/" target="blank" class="footer_social-link">
                                 <i class='bx bxl-pinterest'></i>
                             </a>
                         </ul>
@@ -530,18 +558,23 @@
         </footer>
 
 
-        <!--========== SCROLL UP ==========-->
-       <a href="#" class="scrollup" id="'scroll-up">
-        <i class='bx bx-chevrons-up'></i>
-       </a>
+        <!--scroll-up-->
+        <a href="#" class="scrollup" id="'scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+           </a>
 
-        <!--=============== SCROLLREVEAL ===============-->
+        <!--scrollreveal-->
         <script src="assets\js\scrollreveal.min.js"></script>
 
-        <!--=============== SWIPER JS ===============-->
+        <!--swiper_js-->
         <script src="assets\js\swiper-bundle.min.js"></script>
 
-        <!--=============== MAIN JS ===============-->
+        <!--main_js-->
         <script src="assets\js\main.js"></script>
+        <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     </body>
 </html>
